@@ -1,0 +1,29 @@
+# config.yaml
+data:
+  user_num: 1000                # 对应模拟的1000个用户
+  text_max_len: 128             # 微博文本的最大长度
+  behavior_seq_len: 8          # 行为序列长度
+  n_classes: 2                  # 用户标签数（积极/消极）
+  train_ratio: 0.7              # 训练集比例
+
+model:
+  bert_model_name: "bert-base-chinese"  # 中文BERT模型
+  bert_hidden_dim: 768         # BERT的输出维度
+  lstm_hidden_dim: 128         # LSTM的隐藏层维度
+  gcn_hidden_dim: 64          # GCN的隐藏层维度
+  fusion_hidden_dim: 256       # 多模态融合后的维度
+  dropout: 0.5                 # Dropout率
+  num_heads: 2                 # 注意力头数
+
+train:
+  lr: 0.0001                   # 学习率
+  batch_size: 8               # 批次大小
+  epochs: 50                   # 训练轮数
+  patience: 5                  # 早停耐心值
+  device: "cuda"               # 设备（自动适配CPU/GPU）
+
+# 补充缺失的path字段
+path:
+  log_path: "./logs/"          # 日志保存路径
+  model_save_path: "./saved_model/"  # 模型保存路径
+  result_path: "./results/"    # 画像结果保存路径

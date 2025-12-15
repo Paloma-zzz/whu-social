@@ -1,0 +1,197 @@
+2025-12-13 11:25:12.785 | INFO     | __main__:<module>:552 - 数据集生成完成，用户数量：500
+2025-12-13 11:26:49.433 | INFO     | __main__:<module>:562 - 模型初始化完成，设备：cpu
+2025-12-13 11:29:18.319 | INFO     | __main__:<module>:552 - 数据集生成完成，用户数量：500
+2025-12-13 11:29:19.350 | INFO     | __main__:<module>:562 - 模型初始化完成，设备：cpu
+2025-12-13 11:29:19.352 | INFO     | __main__:train_model:322 - 开始训练模型...
+2025-12-13 11:31:31.377 | INFO     | __main__:<module>:559 - 数据集生成完成，用户数量：500
+2025-12-13 11:31:32.194 | INFO     | __main__:<module>:569 - 模型初始化完成，设备：cpu
+2025-12-13 11:31:32.196 | INFO     | __main__:train_model:329 - 开始训练模型...
+2025-12-13 11:39:20.760 | INFO     | __main__:main:15 - 数据集生成完成，用户数量：500
+2025-12-13 11:39:21.792 | INFO     | __main__:main:20 - 模型初始化完成，设备：cpu
+2025-12-13 11:39:21.795 | INFO     | train_eval:train_model:19 - 开始训练模型...
+2025-12-13 11:40:16.318 | INFO     | train_eval:train_model:98 - 
+Epoch 1 Results:
+2025-12-13 11:40:16.324 | INFO     | train_eval:train_model:99 - Train Loss: 0.8074 | Train Acc: 0.7429
+2025-12-13 11:40:16.325 | INFO     | train_eval:train_model:100 - Test Loss: 0.2615 | Test Acc: 1.0000 | Test Top3 Acc: 1.0000
+2025-12-13 11:40:18.610 | INFO     | train_eval:train_model:113 - 保存最佳模型（Test Acc: 1.0000）
+2025-12-13 11:41:13.991 | INFO     | train_eval:train_model:98 - 
+Epoch 2 Results:
+2025-12-13 11:41:13.991 | INFO     | train_eval:train_model:99 - Train Loss: 0.1092 | Train Acc: 1.0000
+2025-12-13 11:41:13.992 | INFO     | train_eval:train_model:100 - Test Loss: 0.0127 | Test Acc: 1.0000 | Test Top3 Acc: 1.0000
+2025-12-13 11:41:35.041 | INFO     | train_eval:train_model:98 - 
+Epoch 3 Results:
+2025-12-13 11:41:35.041 | INFO     | train_eval:train_model:99 - Train Loss: 0.0070 | Train Acc: 1.0000
+2025-12-13 11:41:35.041 | INFO     | train_eval:train_model:100 - Test Loss: 0.0016 | Test Acc: 1.0000 | Test Top3 Acc: 1.0000
+2025-12-13 11:41:54.515 | INFO     | train_eval:train_model:98 - 
+Epoch 4 Results:
+2025-12-13 11:41:54.515 | INFO     | train_eval:train_model:99 - Train Loss: 0.0013 | Train Acc: 1.0000
+2025-12-13 11:41:54.515 | INFO     | train_eval:train_model:100 - Test Loss: 0.0006 | Test Acc: 1.0000 | Test Top3 Acc: 1.0000
+2025-12-13 11:42:14.500 | INFO     | train_eval:train_model:98 - 
+Epoch 5 Results:
+2025-12-13 11:42:14.500 | INFO     | train_eval:train_model:99 - Train Loss: 0.0006 | Train Acc: 1.0000
+2025-12-13 11:42:14.500 | INFO     | train_eval:train_model:100 - Test Loss: 0.0004 | Test Acc: 1.0000 | Test Top3 Acc: 1.0000
+2025-12-13 11:42:34.419 | INFO     | train_eval:train_model:98 - 
+Epoch 6 Results:
+2025-12-13 11:42:34.419 | INFO     | train_eval:train_model:99 - Train Loss: 0.0005 | Train Acc: 1.0000
+2025-12-13 11:42:34.420 | INFO     | train_eval:train_model:100 - Test Loss: 0.0003 | Test Acc: 1.0000 | Test Top3 Acc: 1.0000
+2025-12-13 11:42:34.420 | INFO     | train_eval:train_model:117 - 早停触发（Patience: 5），最佳Test Acc: 1.0000
+2025-12-13 11:42:46.312 | INFO     | profile_operations:generate_user_profile:72 - 用户画像已保存至：./results/
+2025-12-13 11:42:46.348 | INFO     | profile_operations:evaluate_profile:107 - 
+==================================================
+2025-12-13 11:42:46.349 | INFO     | profile_operations:evaluate_profile:108 - 用户画像质量评估结果：
+2025-12-13 11:42:46.349 | INFO     | profile_operations:evaluate_profile:109 - 调整兰德指数（ARI）：1.0000
+2025-12-13 11:42:46.349 | INFO     | profile_operations:evaluate_profile:110 - 归一化互信息（NMI）：1.0000
+2025-12-13 11:42:46.350 | INFO     | profile_operations:evaluate_profile:111 - 同类别画像相似度均值：0.9982
+2025-12-13 11:42:46.350 | INFO     | profile_operations:evaluate_profile:112 - 标签覆盖率：1.0000
+2025-12-13 11:42:46.350 | INFO     | profile_operations:evaluate_profile:113 - 模态平均权重：文本=0.9500 | 行为=0.0300 | 社交关系=0.0199
+2025-12-13 11:42:46.350 | INFO     | profile_operations:evaluate_profile:114 - ==================================================
+2025-12-13 11:42:46.352 | INFO     | profile_operations:personalized_recommendation:140 - 
+为用户0推荐的Top-5相似用户：
+2025-12-13 11:42:46.352 | INFO     | profile_operations:personalized_recommendation:142 - 排名1：用户197（相似度：1.0000）
+2025-12-13 11:42:46.353 | INFO     | profile_operations:personalized_recommendation:142 - 排名2：用户371（相似度：1.0000）
+2025-12-13 11:42:46.353 | INFO     | profile_operations:personalized_recommendation:142 - 排名3：用户289（相似度：1.0000）
+2025-12-13 11:42:46.353 | INFO     | profile_operations:personalized_recommendation:142 - 排名4：用户104（相似度：1.0000）
+2025-12-13 11:42:46.353 | INFO     | profile_operations:personalized_recommendation:142 - 排名5：用户121（相似度：1.0000）
+2025-12-13 13:14:25.696 | INFO     | __main__:main:15 - 数据集生成完成，用户数量：1000
+2025-12-13 13:23:54.926 | INFO     | __main__:main:15 - 数据集生成完成，用户数量：1000
+2025-12-13 13:23:56.012 | INFO     | __main__:main:20 - 模型初始化完成，设备：cpu
+2025-12-13 13:23:56.014 | INFO     | train_eval:train_model:19 - 开始训练模型...
+2025-12-13 13:44:48.013 | INFO     | __main__:main:15 - 数据集生成完成，用户数量：1000
+2025-12-13 13:44:49.116 | INFO     | __main__:main:20 - 模型初始化完成，设备：cpu
+2025-12-13 13:44:49.117 | INFO     | train_eval:train_model:19 - 开始训练模型...
+2025-12-13 14:13:11.999 | INFO     | __main__:main:15 - 数据集生成完成，用户数量：1000
+2025-12-13 14:13:13.246 | INFO     | __main__:main:20 - 模型初始化完成，设备：cpu
+2025-12-13 14:13:13.247 | INFO     | train_eval:train_model:19 - 开始训练模型...
+2025-12-13 14:29:41.188 | INFO     | train_eval:train_model:110 - Test Loss: 0.1202 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-13 14:29:43.739 | INFO     | train_eval:train_model:123 - 保存最佳模型（Test Acc: 0.9833）
+2025-12-13 14:42:43.413 | INFO     | train_eval:train_model:110 - Test Loss: 0.1090 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-13 14:50:36.671 | INFO     | train_eval:train_model:110 - Test Loss: 0.1019 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-13 14:57:38.985 | INFO     | train_eval:train_model:110 - Test Loss: 0.1022 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-13 15:04:30.854 | INFO     | train_eval:train_model:110 - Test Loss: 0.1014 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-13 15:11:25.900 | INFO     | train_eval:train_model:110 - Test Loss: 0.1094 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-13 15:11:25.904 | INFO     | train_eval:train_model:127 - 早停触发（Patience: 5），最佳Test Acc: 0.9833
+2025-12-13 21:08:39.198 | INFO     | __main__:main:15 - 数据集生成完成，用户数量：1000
+2025-12-13 21:08:40.591 | INFO     | __main__:main:20 - 模型初始化完成，设备：cpu
+2025-12-13 21:08:40.594 | INFO     | train_eval:train_model:19 - 开始训练模型...
+2025-12-13 21:11:53.308 | INFO     | __main__:main:15 - 数据集生成完成，用户数量：1000
+2025-12-13 21:11:54.359 | INFO     | __main__:main:20 - 模型初始化完成，设备：cpu
+2025-12-13 21:11:54.360 | INFO     | train_eval:train_model:19 - 开始训练模型...
+2025-12-13 21:13:53.946 | INFO     | __main__:main:15 - 数据集生成完成，用户数量：1000
+2025-12-13 21:13:54.964 | INFO     | __main__:main:20 - 模型初始化完成，设备：cpu
+2025-12-13 21:13:54.970 | INFO     | train_eval:train_model:19 - 开始训练模型...
+2025-12-13 21:33:21.724 | INFO     | train_eval:train_model:110 - Test Loss: 0.1202 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-13 21:33:24.509 | INFO     | train_eval:train_model:123 - 保存最佳模型（Test Acc: 0.9833）
+2025-12-13 21:53:03.851 | INFO     | train_eval:train_model:110 - Test Loss: 0.1090 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-13 22:13:18.242 | INFO     | train_eval:train_model:110 - Test Loss: 0.1019 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-13 22:23:35.634 | INFO     | train_eval:train_model:110 - Test Loss: 0.1022 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-13 22:35:25.529 | INFO     | __main__:main:15 - 数据集生成完成，用户数量：500
+2025-12-13 22:35:26.278 | INFO     | __main__:main:20 - 模型初始化完成，设备：cpu
+2025-12-13 22:35:26.279 | INFO     | train_eval:train_model:19 - 开始训练模型...
+2025-12-13 22:37:17.529 | INFO     | train_eval:train_model:110 - Test Loss: 0.0816 | Test Acc: 0.9867 | Test Top-1 Acc: 1.0000
+2025-12-13 22:37:19.774 | INFO     | train_eval:train_model:123 - 保存最佳模型（Test Acc: 0.9867）
+2025-12-13 22:39:14.986 | INFO     | train_eval:train_model:110 - Test Loss: 0.0966 | Test Acc: 0.9867 | Test Top-1 Acc: 1.0000
+2025-12-13 22:41:14.561 | INFO     | train_eval:train_model:110 - Test Loss: 0.0867 | Test Acc: 0.9867 | Test Top-1 Acc: 1.0000
+2025-12-13 22:43:14.081 | INFO     | train_eval:train_model:110 - Test Loss: 0.0813 | Test Acc: 0.9867 | Test Top-1 Acc: 1.0000
+2025-12-13 22:43:14.081 | INFO     | train_eval:train_model:127 - 早停触发（Patience: 3），最佳Test Acc: 0.9867
+2025-12-13 22:44:05.467 | INFO     | profile_operations:generate_user_profile:72 - 用户画像已保存至：./results/
+2025-12-13 22:44:05.488 | INFO     | profile_operations:evaluate_profile:107 - 
+==================================================
+2025-12-13 22:44:05.489 | INFO     | profile_operations:evaluate_profile:108 - 用户画像质量评估结果：
+2025-12-13 22:44:05.489 | INFO     | profile_operations:evaluate_profile:109 - 调整兰德指数（ARI）：-0.0003
+2025-12-13 22:44:05.489 | INFO     | profile_operations:evaluate_profile:110 - 归一化互信息（NMI）：0.0033
+2025-12-13 22:44:05.489 | INFO     | profile_operations:evaluate_profile:111 - 同类别画像相似度均值：1.0000
+2025-12-13 22:44:05.490 | INFO     | profile_operations:evaluate_profile:112 - 标签覆盖率：1.0000
+2025-12-13 22:44:05.490 | INFO     | profile_operations:evaluate_profile:113 - 模态平均权重：文本=0.9896 | 行为=0.0047 | 社交关系=0.0057
+2025-12-13 22:44:05.490 | INFO     | profile_operations:evaluate_profile:114 - ==================================================
+2025-12-13 22:44:05.492 | INFO     | profile_operations:personalized_recommendation:140 - 
+为用户0推荐的Top-5相似用户：
+2025-12-13 22:44:05.492 | INFO     | profile_operations:personalized_recommendation:142 - 排名1：用户218（相似度：1.0000）
+2025-12-13 22:44:05.492 | INFO     | profile_operations:personalized_recommendation:142 - 排名2：用户393（相似度：1.0000）
+2025-12-13 22:44:05.492 | INFO     | profile_operations:personalized_recommendation:142 - 排名3：用户427（相似度：1.0000）
+2025-12-13 22:44:05.492 | INFO     | profile_operations:personalized_recommendation:142 - 排名4：用户430（相似度：1.0000）
+2025-12-13 22:44:05.492 | INFO     | profile_operations:personalized_recommendation:142 - 排名5：用户419（相似度：1.0000）
+2025-12-13 22:51:25.970 | INFO     | __main__:main:15 - 数据集生成完成，用户数量：1000
+2025-12-13 22:51:27.420 | INFO     | __main__:main:20 - 模型初始化完成，设备：cpu
+2025-12-13 22:51:27.424 | INFO     | train_eval:train_model:19 - 开始训练模型...
+2025-12-13 23:00:10.675 | INFO     | train_eval:train_model:110 - Test Loss: 0.0877 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-13 23:00:12.780 | INFO     | train_eval:train_model:123 - 保存最佳模型（Test Acc: 0.9833）
+2025-12-13 23:03:34.338 | INFO     | train_eval:train_model:110 - Test Loss: 0.0881 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-13 23:06:58.120 | INFO     | train_eval:train_model:110 - Test Loss: 0.0856 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-13 23:10:21.827 | INFO     | train_eval:train_model:110 - Test Loss: 0.0848 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-13 23:10:21.830 | INFO     | train_eval:train_model:127 - 早停触发（Patience: 3），最佳Test Acc: 0.9833
+2025-12-13 23:11:48.098 | INFO     | profile_operations:generate_user_profile:72 - 用户画像已保存至：./results/
+2025-12-13 23:11:48.135 | INFO     | profile_operations:evaluate_profile:107 - 
+==================================================
+2025-12-13 23:11:48.135 | INFO     | profile_operations:evaluate_profile:108 - 用户画像质量评估结果：
+2025-12-13 23:11:48.136 | INFO     | profile_operations:evaluate_profile:109 - 调整兰德指数（ARI）：-0.0006
+2025-12-13 23:11:48.136 | INFO     | profile_operations:evaluate_profile:110 - 归一化互信息（NMI）：0.0002
+2025-12-13 23:11:48.136 | INFO     | profile_operations:evaluate_profile:111 - 同类别画像相似度均值：1.0000
+2025-12-13 23:11:48.137 | INFO     | profile_operations:evaluate_profile:112 - 标签覆盖率：1.0000
+2025-12-13 23:11:48.137 | INFO     | profile_operations:evaluate_profile:113 - 模态平均权重：文本=0.9918 | 行为=0.0044 | 社交关系=0.0038
+2025-12-13 23:11:48.138 | INFO     | profile_operations:evaluate_profile:114 - ==================================================
+2025-12-13 23:11:48.140 | INFO     | profile_operations:personalized_recommendation:140 - 
+为用户0推荐的Top-5相似用户：
+2025-12-13 23:11:48.140 | INFO     | profile_operations:personalized_recommendation:142 - 排名1：用户309（相似度：1.0000）
+2025-12-13 23:11:48.140 | INFO     | profile_operations:personalized_recommendation:142 - 排名2：用户597（相似度：1.0000）
+2025-12-13 23:11:48.140 | INFO     | profile_operations:personalized_recommendation:142 - 排名3：用户667（相似度：1.0000）
+2025-12-13 23:11:48.140 | INFO     | profile_operations:personalized_recommendation:142 - 排名4：用户497（相似度：1.0000）
+2025-12-13 23:11:48.141 | INFO     | profile_operations:personalized_recommendation:142 - 排名5：用户48（相似度：1.0000）
+2025-12-13 23:58:11.646 | INFO     | __main__:main:15 - 数据集生成完成，用户数量：1000
+2025-12-13 23:58:12.633 | INFO     | __main__:main:20 - 模型初始化完成，设备：cpu
+2025-12-13 23:58:12.634 | INFO     | train_eval:train_model:19 - 开始训练模型...
+2025-12-13 23:58:46.297 | INFO     | __main__:main:15 - 数据集生成完成，用户数量：1000
+2025-12-13 23:58:47.103 | INFO     | __main__:main:20 - 模型初始化完成，设备：cpu
+2025-12-13 23:58:47.104 | INFO     | train_eval:train_model:19 - 开始训练模型...
+2025-12-14 00:03:05.999 | INFO     | train_eval:train_model:110 - Test Loss: 0.0877 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-14 00:03:08.286 | INFO     | train_eval:train_model:123 - 保存最佳模型（Test Acc: 0.9833）
+2025-12-14 00:12:44.594 | INFO     | train_eval:train_model:110 - Test Loss: 0.0881 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-14 00:23:51.829 | INFO     | train_eval:train_model:110 - Test Loss: 0.0856 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-14 00:31:16.725 | INFO     | train_eval:train_model:110 - Test Loss: 0.0848 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-14 00:38:36.461 | INFO     | train_eval:train_model:110 - Test Loss: 0.0846 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-14 00:45:24.806 | INFO     | train_eval:train_model:110 - Test Loss: 0.0867 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-14 00:45:24.814 | INFO     | train_eval:train_model:127 - 早停触发（Patience: 5），最佳Test Acc: 0.9833
+2025-12-14 00:47:53.727 | INFO     | profile_operations:generate_user_profile:72 - 用户画像已保存至：./results/
+2025-12-14 00:47:53.777 | INFO     | profile_operations:evaluate_profile:107 - 
+==================================================
+2025-12-14 00:47:53.778 | INFO     | profile_operations:evaluate_profile:108 - 用户画像质量评估结果：
+2025-12-14 00:47:53.778 | INFO     | profile_operations:evaluate_profile:109 - 调整兰德指数（ARI）：-0.0006
+2025-12-14 00:47:53.778 | INFO     | profile_operations:evaluate_profile:110 - 归一化互信息（NMI）：0.0002
+2025-12-14 00:47:53.780 | INFO     | profile_operations:evaluate_profile:111 - 同类别画像相似度均值：1.0000
+2025-12-14 00:47:53.780 | INFO     | profile_operations:evaluate_profile:112 - 标签覆盖率：1.0000
+2025-12-14 00:47:53.781 | INFO     | profile_operations:evaluate_profile:113 - 模态平均权重：文本=0.9918 | 行为=0.0044 | 社交关系=0.0038
+2025-12-14 00:47:53.781 | INFO     | profile_operations:evaluate_profile:114 - ==================================================
+2025-12-14 00:47:53.788 | INFO     | profile_operations:personalized_recommendation:171 - 
+为用户0推荐的Top-5相似用户：
+2025-12-14 00:47:53.789 | INFO     | profile_operations:personalized_recommendation:173 - 排名1：用户309（相似度：1.0000）
+2025-12-14 00:47:53.789 | INFO     | profile_operations:personalized_recommendation:173 - 排名2：用户597（相似度：1.0000）
+2025-12-14 00:47:53.789 | INFO     | profile_operations:personalized_recommendation:173 - 排名3：用户667（相似度：1.0000）
+2025-12-14 00:47:53.790 | INFO     | profile_operations:personalized_recommendation:173 - 排名4：用户497（相似度：1.0000）
+2025-12-14 00:47:53.790 | INFO     | profile_operations:personalized_recommendation:173 - 排名5：用户48（相似度：1.0000）
+2025-12-14 15:32:49.211 | INFO     | __main__:main:15 - 数据集生成完成，用户数量：1000
+2025-12-14 15:32:50.327 | INFO     | __main__:main:20 - 模型初始化完成，设备：cpu
+2025-12-14 15:32:50.328 | INFO     | train_eval:train_model:19 - 开始训练模型...
+2025-12-14 15:43:51.926 | INFO     | train_eval:train_model:110 - Test Loss: 0.0877 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-14 15:43:54.668 | INFO     | train_eval:train_model:123 - 保存最佳模型（Test Acc: 0.9833）
+2025-12-14 16:07:29.247 | INFO     | train_eval:train_model:110 - Test Loss: 0.0881 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-14 16:18:14.708 | INFO     | train_eval:train_model:110 - Test Loss: 0.0856 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-14 16:29:23.873 | INFO     | train_eval:train_model:110 - Test Loss: 0.0848 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-14 16:41:45.702 | INFO     | train_eval:train_model:110 - Test Loss: 0.0846 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-14 16:53:44.328 | INFO     | train_eval:train_model:110 - Test Loss: 0.0867 | Test Acc: 0.9833 | Test Top-1 Acc: 1.0000
+2025-12-14 16:53:44.334 | INFO     | train_eval:train_model:127 - 早停触发（Patience: 5），最佳Test Acc: 0.9833
+2025-12-14 16:58:17.631 | INFO     | profile_operations:generate_user_profile:72 - 用户画像已保存至：./results/
+2025-12-14 16:58:17.726 | INFO     | profile_operations:evaluate_profile:107 - 
+==================================================
+2025-12-14 16:58:17.728 | INFO     | profile_operations:evaluate_profile:108 - 用户画像质量评估结果：
+2025-12-14 16:58:17.728 | INFO     | profile_operations:evaluate_profile:109 - 调整兰德指数（ARI）：-0.0006
+2025-12-14 16:58:17.729 | INFO     | profile_operations:evaluate_profile:110 - 归一化互信息（NMI）：0.0002
+2025-12-14 16:58:17.729 | INFO     | profile_operations:evaluate_profile:111 - 同类别画像相似度均值：1.0000
+2025-12-14 16:58:17.730 | INFO     | profile_operations:evaluate_profile:112 - 标签覆盖率：1.0000
+2025-12-14 16:58:17.730 | INFO     | profile_operations:evaluate_profile:113 - 模态平均权重：文本=0.9918 | 行为=0.0044 | 社交关系=0.0038
+2025-12-14 16:58:17.731 | INFO     | profile_operations:evaluate_profile:114 - ==================================================
+2025-12-14 16:58:17.735 | INFO     | profile_operations:personalized_recommendation:171 - 
+为用户0推荐的Top-5相似用户：
+2025-12-14 16:58:17.736 | INFO     | profile_operations:personalized_recommendation:173 - 排名1：用户309（相似度：1.0000）
+2025-12-14 16:58:17.736 | INFO     | profile_operations:personalized_recommendation:173 - 排名2：用户597（相似度：1.0000）
+2025-12-14 16:58:17.737 | INFO     | profile_operations:personalized_recommendation:173 - 排名3：用户667（相似度：1.0000）
+2025-12-14 16:58:17.737 | INFO     | profile_operations:personalized_recommendation:173 - 排名4：用户497（相似度：1.0000）
+2025-12-14 16:58:17.738 | INFO     | profile_operations:personalized_recommendation:173 - 排名5：用户48（相似度：1.0000）
