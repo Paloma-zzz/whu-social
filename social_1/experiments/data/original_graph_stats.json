@@ -1,0 +1,10 @@
+{
+  "num_nodes": 28089,
+  "num_edges": 1056187,
+  "num_features": 602,
+  "num_classes": 41,
+  "train_size": 19662,
+  "val_size": 4213,
+  "test_size": 4214,
+  "avg_degree": 37.601445405674816
+}
